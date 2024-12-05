@@ -4,7 +4,7 @@ import DashboardHeroMain from "./DashboardHeroMain";
 
 const DashboardHero = ({ dashboard }) => {
   return (
-    <div className='h-full w-full'>
+    <div className='w-full ml-[307px]'>
       <SearchBar />
       <DashboardHeroMain dashboard={dashboard} />
     </div>

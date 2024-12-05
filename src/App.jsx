@@ -4,15 +4,12 @@ import Dashboard from "./pages/Dashboard.jsx";
 
 function App() {
   return (
-    <main>
-      {/* <Login /> */}
-      <Dashboard />
-    </main>
-    // <BrowserRouter>
-    //   <Routes path='/' element={}>
-
-    //   </Routes>
-    // </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Dashboard />} />
+        <Route path='login' element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

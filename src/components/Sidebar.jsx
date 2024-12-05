@@ -5,7 +5,7 @@ import SideBarFooter from "./SideBarFooter";
 
 const Sidebar = ({ dashboard, changeDashboard }) => {
   return (
-    <article className='h-screen w-max-[25%] bg-white'>
+    <article className='h-screen w-max-[25%] fixed bg-white'>
       <div className='flex flex-col h-full justify-between items-left px-6 py-5'>
         <div>
           <Logo />
